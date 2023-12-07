@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    &__div{
+        &__logo{
+            font-size: 70px;
+            color: #191970;
+            font-family: 'Nova Square', sans-serif;
+        }
+        &__articulos{
+            ul{
+                display: flex;
+                flex-direction: row;
+                li{
+                    padding: 0 5%;
+                }
+            }
+        }
+        a{
+            font-size: 30px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+    }
+}
+#cartwidget{
+    img{
+        height: 40px;
+    }
+}
