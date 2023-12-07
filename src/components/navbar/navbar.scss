@@ -7,6 +7,7 @@
             font-size: 70px;
             color: #191970;
             font-family: 'Nova Square', sans-serif;
+            padding-right: 30%;
         }
         &__articulos{
             ul{
@@ -24,7 +25,15 @@
     }
 }
 #cartwidget{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
     img{
+        
         height: 40px;
+    }
+    p{
+        font-size: 30px;
+        font-family: 'Roboto Condensed', sans-serif;
     }
 }

@@ -16,7 +16,7 @@ const NavBar = () => {
                             <a className="nav-link active" aria-current="page" href="#">Incubadoras</a>
                         </li>
                         <li className="nav-item ">
-                            <a className="nav-link" href="#">Cunas termicas</a>
+                            <a className="nav-link" href="#">Servocunas</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Fotoestimuladores</a>
