@@ -1,0 +1,29 @@
+.item-detail{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'img' 'tx';
+    gri
+    &__imagen{
+        grid-area: 'img';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__texto{
+        grid-area: 'tx';
+        font-family: 'Roboto Condensed', sans-serif;
+        &__titulo{
+            font-size: 35px;
+            color: #191970;
+        }
+        &__descp{
+            font-size: 18px;
+            padding: 2% 0;
+        }
+        &__precio{
+            font-size: 27px;
+        }
+    }
+}
