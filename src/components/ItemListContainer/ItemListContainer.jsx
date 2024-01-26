@@ -4,7 +4,6 @@ import obtenerProductos from "../utilities/data";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 
-import './itemListContainer.scss'
 
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);

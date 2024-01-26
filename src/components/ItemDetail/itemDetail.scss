@@ -4,7 +4,6 @@
     grid-template-columns: 1fr 2fr ;
     grid-template-rows: 1fr;
     grid-template-areas: 'img' 'tx';
-    gri
     &__imagen{
         grid-area: 'img';
         display: flex;
@@ -26,4 +25,12 @@
             font-size: 27px;
         }
     }
+}
+.button-terminar{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    border: 2px solid #191970;
+    background-color: #191970;
+    width: 130px;
+    margin: 0 1% 0 0;
 }
